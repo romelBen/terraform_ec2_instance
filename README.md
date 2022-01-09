@@ -2,6 +2,7 @@
 This module creates a EC2 infrastructure to create an EC2 instance
 
 ## Usage
+~~~
 module "my_ec2_instance" {
   source = "git@github.com:romelBen/terraform_ec2_instance.git"
 
@@ -11,3 +12,4 @@ module "my_ec2_instance" {
 
   ec2_ami_id = data.aws_ami.hardened_ubuntu.id
 }
+~~~
