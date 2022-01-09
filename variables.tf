@@ -6,7 +6,6 @@ variable "ec2_instance_name" {
 
 variable "ec2_instance_type" {
   type    = string
-  default = "t3.micro"
   description = "The amount of vCPU and vRAM on server."
 }
 
